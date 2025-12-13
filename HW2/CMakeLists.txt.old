@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.20)
+project(HW2 LANGUAGES CXX C)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# GLAD (C library)
+add_library(glad STATIC external/glad/src/glad.c)
+set_target_properties(glad PROPERTIES LINKER_LANGUAGE C)
+target_include_directories(glad PUBLIC external/glad/include)
+
+# Executable
+file(GLOB HW2_SOURCES src/*.cpp)
+add_executable(HW2  ${HW2_SOURCES})
+target_include_directories(HW2 PRIVATE include external)
+
+# Link against GLAD + GLFW (MSYS2 provides libglfw3.a) + system OpenGL
+find_package(OpenGL REQUIRED)
+target_link_libraries(HW2 PRIVATE glad glfw3 OpenGL::GL)
+
+# Copy runtime resources (shaders, assets) after build
+add_custom_command(TARGET HW2 POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/shaders $<TARGET_FILE_DIR:HW2>/shaders
+)
+add_custom_command(TARGET HW2 POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:HW2>/assets
+)
