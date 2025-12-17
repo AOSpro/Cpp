@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/ASUS/Documents/GitHub/Cpp/HW1/CMakeLists.txt
+  Camera.cpp
+  EBO.cpp
+  VAO.cpp
+  VBO.cpp
+  main.cpp
+  shaders.cpp
+  stb.cpp
+  textures.cpp
+  Generating Code...
+  glad.c
+  HW1.vcxproj -> C:\Users\ASUS\Documents\GitHub\Cpp\HW1\build\bin\Release\HW1.exe

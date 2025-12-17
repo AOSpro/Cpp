@@ -108,7 +108,7 @@ int main()
     Texture pic("assets/textures/pic.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
     pic.texUnit(shader, "tex0", 0);
     glEnable(GL_DEPTH_TEST);
-    Camera camera(WINDOW_WIDTH, WINDOW_HEIGHT, glm::vec3(0.0f, 0.0f, 2.0f));
+    Camera camera(WINDOW_WIDTH, WINDOW_HEIGHT, glm::vec3(0.0f, 0.0f, 9.0f));
     // create hand meshes (pivot at origin)
     auto hourData = makeHand(0.03f, 0.28f, glm::vec3(0.1f, 0.1f, 0.1f));
     VAO hourVAO; hourVAO.Bind();

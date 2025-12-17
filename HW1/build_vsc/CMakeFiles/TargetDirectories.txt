@@ -1,7 +1,0 @@
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/HW1.dir
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/create-build-mingw.dir
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/create-build-msvc.dir
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/create-build-unix.dir
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/create-builds.dir
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/edit_cache.dir
-D:/I.T.E/محاضرات/y3/بيانيات/HW1/cpp/HW1/build_vsc/CMakeFiles/rebuild_cache.dir
