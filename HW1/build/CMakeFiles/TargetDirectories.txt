@@ -1,4 +1,0 @@
-C:/Users/ASUS/Documents/GitHub/Cpp/HW1/build/CMakeFiles/HW1.dir
-C:/Users/ASUS/Documents/GitHub/Cpp/HW1/build/CMakeFiles/INSTALL.dir
-C:/Users/ASUS/Documents/GitHub/Cpp/HW1/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/ASUS/Documents/GitHub/Cpp/HW1/build/CMakeFiles/ZERO_CHECK.dir
